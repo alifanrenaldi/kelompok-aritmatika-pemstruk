@@ -2,7 +2,9 @@
 Alifan Renaldi           - 2017051074
 Kurniawan Dwi Yuliyanto  - 2057051010
 Saddam Surya Mardiansyah - 2017051014
-*/
+*/ 
+
+// is is is tak patut
 
 
 #include <bits/stdc++.h>
