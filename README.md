@@ -1,8 +1,6 @@
-# kelompok-aritmatika-pemstruk
-#include <iostream>
-#include <string>
-  
-  using namespace std;
-  
-  int main(){
+int main () {
+    string Operator;
+    getline(cin,Operator);
+    SosialDistancingInfix(Operator);
+}
   
