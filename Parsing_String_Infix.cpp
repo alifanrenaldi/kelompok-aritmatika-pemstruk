@@ -6,7 +6,7 @@ Saddam Surya Mardiansyah  - 2017051014
 
 #include <bits/stdc++.h>
 using namespace std;
-void SosialDistancingInfix(string Operator){
+void PPKM_infixpostfix(string Operator){
     
     for (int p=0; p<Operator.length(); p++) {   
         if(p==0 && Operator[p] == '-' && Operator[p+1]!= '('){
@@ -59,3 +59,10 @@ void SosialDistancingInfix(string Operator){
             cout << Operator[p] << " ";
     }
 };
+
+int main () 
+{
+    string Operator;
+    getline(cin,Operator);
+    PPKM_infixpostfix(Operator);
+}
