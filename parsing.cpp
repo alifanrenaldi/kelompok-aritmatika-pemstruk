@@ -1,3 +1,10 @@
+/*Kelompok Aritmatika
+Alifan Renaldi           - 2017051074
+Kurniawan Dwi Yuliyanto  - 2057051010
+Saddam Surya Mardiansyah - 2017051014
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 void SosialDistancingInfix(string Operator){
