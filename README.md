@@ -29,3 +29,9 @@ else if(Operator[p]=='-'){
             cout << Operator[p] << " ";
     }
 };
+int main () {
+    string Operator;
+    getline(cin,Operator);
+    SosialDistancingInfix(Operator);
+}
+  
