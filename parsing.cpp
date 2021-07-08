@@ -5,6 +5,7 @@ Saddam Surya Mardiansyah - 2017051014
 */ 
 
 // is is is tak patut
+// Omoishiroi
 
 
 #include <bits/stdc++.h>
