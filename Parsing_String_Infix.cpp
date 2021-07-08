@@ -27,16 +27,16 @@ void SosialDistancingInfix(string Operator){
             if (isdigit (Operator[p-1]) && Operator[p+1] == '(') {
                 cout << Operator[p] << " ";
             }
-            else if (!isdigit(Operator[p-1]) && Operator[p+1] == '('){
+     else if (!isdigit(Operator[p-1]) && Operator[p+1] == '('){
                 cout << "-1 * ";
             }
-            else if (!isdigit(Operator[p-1]) && Operator[p+1] == ')'){
+     else if (!isdigit(Operator[p-1]) && Operator[p+1] == ')'){
                 cout << Operator[p] << " ";
             }
-            else if (Operator[p-1] == ' ' && Operator[p+1] == ' '){
+     else if (Operator[p-1] == ' ' && Operator[p+1] == ' '){
                 cout << Operator[p] << " ";
             }
-            else if (isdigit(Operator[p-1])){
+     else if (isdigit(Operator[p-1])){
                 cout << Operator[p] << " ";
             }
         }
