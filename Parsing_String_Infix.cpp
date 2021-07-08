@@ -1,6 +1,6 @@
 /* Kelompok Aritmatika
 
-Saddam Surya Mardiansyah - 2017051014
+Saddam Surya Mardiansyah  - 2017051014
 */
 
 
