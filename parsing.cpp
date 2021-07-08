@@ -1,11 +1,7 @@
-/*Kelompok Aritmatika
-Alifan Renaldi           - 2017051074
-Kurniawan Dwi Yuliyanto  - 2057051010
-Saddam Surya Mardiansyah - 2017051014
-*/ 
-
-// is is is tak patut
-// Omoishiroi
+// Kelompok Aritmatika
+// Alifan Renaldi           - 2017051074
+// Kurniawan Dwi Yuliyanto  - 2057051010
+// Saddam Surya Mardiansyah - 2017051014
 
 
 #include <bits/stdc++.h>
@@ -68,5 +64,4 @@ int main () {
     string Operator;
     getline(cin,Operator);
     SosialDistancingInfix(Operator);
-}
-  
+}  
