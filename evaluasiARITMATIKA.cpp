@@ -144,3 +144,29 @@ void toPostfix(){
         lipan.pop();
     }
 }
+void result(){
+    stack <string> lipan;
+    int i = 0;
+    double res;
+    for(iter = postfix.begin(); iter != postfix.end() ; iter++, i++){
+        if(isdigit(postfix[i].back())){
+            lipan.push(postfix[i]);
+        }
+        else{
+            double A = strtod((lipan.top()).c_str(), NULL);
+            lipan.pop();
+            double B = strtod((lipan.top()).c_str(), NULL);
+            lipan.pop();
+            res = run(B, A, postfix[i]);
+            lipan.push(to_string(res));
+        }
+    }
+    res = strtod((lipan.top()).c_str(), NULL);
+    cout << res << endl;
+}
+
+int main(){
+    input();
+    toPostfix();
+    result();
+}
