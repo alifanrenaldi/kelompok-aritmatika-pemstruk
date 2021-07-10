@@ -10,7 +10,10 @@ Kurniawan Dwi Yuliyanto   - 2057051010
 using namespace std;
 void PPKM_infixpostfix(string Operator){
     
-    for (int p=0; p<Operator.length(); p++) {   
+    int a;
+    a = Operator.length();
+    
+    for (int p=0; p<a(); p++) {   
         if(p==0 && Operator[p] == '-' && Operator[p+1]!= '('){
             cout << Operator[p];
         }
