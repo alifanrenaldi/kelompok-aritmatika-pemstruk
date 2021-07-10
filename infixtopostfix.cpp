@@ -1,5 +1,9 @@
-# kelompok-aritmatika-pemstruk
+/* Kelompok Aritmatika
 
+Saddam Surya Mardiansyah  - 2017051014
+Alifan Renaldi            - 2017051044
+Kurniawan Dwi Yuliyanto   - 2057051010
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -149,6 +153,7 @@ void InfixtoPostfix(){
 int main(){
     MasukkanData();
     InfixtoPostfix();
+    cout << "Print : ";
     for(itu = postfix.begin(); itu != postfix.end() ; itu++){
         cout << *itu << " ";
     }
