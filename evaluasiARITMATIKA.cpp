@@ -1,3 +1,10 @@
+/* Kelompok Aritmatika
+
+Saddam Surya Mardiansyah  - 2017051014
+Alifan Renaldi            - 2017051044
+Kurniawan Dwi Yuliyanto   - 2057051010
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
